@@ -15,12 +15,6 @@ if [ "x$1" == "x" ]; then
     echo "Example:  install.sh /usr/local/lib/pytomation"
 fi
 
-echo -n "Install location is -> $PYHOME [Y/n] ?"
-read a
-if [ "x$a" == "xn" ] || [ "x$a" == "xN" ]; then
-    exit
-fi
-
 echo "Creating user pyto..."
 useradd -m -d $PYHOME pyto
 if [ ! -d $PYHOME ]; then
