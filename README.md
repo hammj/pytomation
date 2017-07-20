@@ -4,7 +4,7 @@
 
 Pytomation is an extensible device communication and automation system written in Python. It's uses 
 include home automation and lighting control but is certainly not limited to 
-that.  It is supported on any platform that support Python ( Windows, Mac OS-X, Linux, etc )
+that.  It is supported on any platform that support Python ( Windows, Mac OS-X, Linux, etc... )
 
 #### Supported
 Pytomation currently has support for the following hardware interfaces with 
